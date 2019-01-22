@@ -31,7 +31,7 @@
     const actors = PRIVATEASER.payActors(bar, time, persons, option);
 
     render(actors);
-
+	document.querySelector('#actors').classList.remove('hidden');
     return;
   });
 })();
